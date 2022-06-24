@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CM", "CM", "{5053AF85-DA9B-4777-8E41-6CCEED534669}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RenderingHost", "RenderingHost", "{FEFB2DDB-F4F5-401C-B1BC-817321011C40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "CM\Website\Website.csproj", "{1097FF6A-5355-497C-AB80-5719754A2F2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C1CB8759-B1BF-43FD-8B19-DA7EF76EB23B}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1097FF6A-5355-497C-AB80-5719754A2F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1097FF6A-5355-497C-AB80-5719754A2F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1097FF6A-5355-497C-AB80-5719754A2F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1097FF6A-5355-497C-AB80-5719754A2F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1097FF6A-5355-497C-AB80-5719754A2F2A} = {5053AF85-DA9B-4777-8E41-6CCEED534669}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C94AB81A-9BDA-4D36-B0E9-E39EFA716A83}
+	EndGlobalSection
+EndGlobal
