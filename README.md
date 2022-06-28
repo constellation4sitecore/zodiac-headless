@@ -46,9 +46,27 @@ You need a Sitecore XM installation that will be the publishing target for the C
 3. Populate the Solr Managed Schema.
 4. Rebuild all Solr indexes (master, core, web)
 5. Install the Sitecore Headless Services package for Sitecore 10.2 (v19 at time of writing)
+6. Install the Sitecore Management Services package for Sitecore 10.2 (v4.2.1 at time of writing)
+	https://doc.sitecore.com/xp/en/developers/102/developer-tools/sitecore-management-services.html
+7. Install the Sitecore Command Line Interface for Sitecore 10.2
+	https://doc.sitecore.com/xp/en/developers/102/developer-tools/install-sitecore-command-line-interface.html
+8. Modify the secret stored in your Solution's [solution root]\Sitecore.IdentityServer.DevEx.xml file.
+9. Copy your Solution's Sitecore.IdentityServer.DevEx.xml file to your target CM's Identity Server's /config folder.
+
+
+At this point you should be able to log into Sitecore 
 
 ## Configure your Sitecore Environment to support this solution
 
-1. Copy the CM/Website/App_Config/AppSettings.config file to your Sitecore CM installation.
-2. Adjust the settings in your AppSettings.config to match your environment (role, env variables)
-3. Create Publish Settings to target your Sitecore CM installation. This solution comes with a LocalIISFolder Publish Profile you can modify, or create your own.
+1. Copy the [solution root]\_CM\Website\App_Config\AppSettings.config file to the /App_Config folder on your target CM.
+2. In your Visual Studio solution, Adjust the settings in this authentication config file:
+	_CM\Website\App_Config\Include\Sitecore.Owin.Authentication.ClientCredentialsMapping.config 
+	Match the Client ID	and Secret values you posted to the Identity server in the Sitecore.IdentitiServer.DevEx.xml file above.
+3. Adjust the settings in your AppSettings.config to match your environment (role, env variables)
+4. Copy the CM/Website/App_Config/Inclue/Project/ExampleSiteSettings folder and name the copy after your first site in this installation.
+5. In the folder you just copied, Find "Example.Site.config.disabled". Rename the file "[YourSiteName].Site.config".
+6. In your newly created site config file, ensure all instances of the string "ExampleSite" are replaced with [YourSiteName].
+7. In your new site config file, ensure the TargetHost and HostName attribute values are correct for your local installation 
+	and any other environments required by your development operations.
+3. For the CM/Website project, Create Publish Settings to target your Sitecore CM installation. This solution comes with a LocalIISFolder 
+	Publish Profile you can modify, or create your own.

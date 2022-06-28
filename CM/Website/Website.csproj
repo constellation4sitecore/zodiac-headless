@@ -204,6 +204,8 @@
     <Content Include="App_Config\Include\Project\_ZodiacScaffolding\Install-Zodiac-Project-Scaffolding.config" />
     <Content Include="App_Config\Include\Project\ReuseLibrary\ReuseLibrary.Site.config" />
     <Content Include="App_Config\Include\Project\ZodiacManual\ZodiacManual.Site.config" />
+    <Content Include="App_Config\Include\Sitecore.Owin.Authentication.ClientCredentialsMapping.config" />
+    <None Include="App_Config\Include\Project\ExampleSiteSettings\Example.Site.config.disabled" />
     <None Include="App_Config\Sitecore.config" />
     <Content Include="App_Config\RewriteRules.config" />
     <None Include="App_Config\AppSettings.config" />
