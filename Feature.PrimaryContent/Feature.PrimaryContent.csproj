@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Feature_PrimaryContent\Views\Layouts\" />
+    <Folder Include="Areas\Feature_PrimaryContent\Views\Renderings\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sitecore.AspNet.ExperienceEditor" Version="20.0.0" />
+    <PackageReference Include="Sitecore.AspNet.RenderingEngine" Version="20.0.0" />
+    <PackageReference Include="Sitecore.LayoutService.Client" Version="20.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Foundation.Videos\Foundation.Videos.csproj" />
+  </ItemGroup>
+
+
+
+</Project>

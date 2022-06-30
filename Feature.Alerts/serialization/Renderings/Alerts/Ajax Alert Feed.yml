@@ -1,0 +1,50 @@
+﻿---
+ID: "2a34602c-6a53-4d88-90c8-cf9f1be998e5"
+Parent: "9541d857-0759-4e95-9e90-8888dbdc6e8d"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Feature/Alerts/Ajax Alert Feed
+SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: Ajax Alert Feed
+- ID: "308e88f5-cd6e-4f8f-bafe-95a47dedefdc"
+  Hint: Editable
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220630T121554Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "56e4618a-f3f2-4cb5-b69a-8a45de578902"
+      Hint: Description
+      Value: |
+        <p>This is a "static" rendering that is the sole rendering on a dedicated Alert Feed page. Its purpose is to&nbsp; use GraphQL to retrieve Alert Items from the following locations:</p>
+        <ul>
+            <li>$contextItem/ancestor-or-self::*[@@templateName="site"]/_alerts/active/*</li>
+            <li>/sitecore/content/_alerts/active/*</li>
+        </ul>
+        <p>The rendering "simplifies" the JSON returned by the Layout Service into something that is easier for JavaScript developers to digest.&nbsp;</p>
+        <p>This rendering should not be movable, removable or editable by Content Authors.</p>
+        <p>The rendering's output can be cached downstream on a CDN, provided the CDN is set up to clear the output on publish.</p>
+        <br />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c1b160df-7cdf-47b1-886f-be9a2b7a8edd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220630T122849Z

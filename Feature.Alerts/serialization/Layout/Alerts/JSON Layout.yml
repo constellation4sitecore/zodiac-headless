@@ -1,0 +1,41 @@
+﻿---
+ID: "af2e175f-090e-4da8-92d6-89170133a527"
+Parent: "07cd8a9a-2050-4440-9a18-e583b17a604b"
+Template: "35c61e90-47dd-43dd-83a8-d1c4d5119720"
+Path: /sitecore/layout/Layouts/Feature/Alerts/JSON Layout
+SharedFields:
+- ID: "70dc08d9-cda2-4f04-aa35-c11fd7138066"
+  Hint: Area
+  Value: Feature_Alerts
+- ID: "80334869-86dc-4472-aa89-44cf1b2f6c9b"
+  Hint: Placeholders
+  Value: "{2DA3F7B0-20F4-47C7-962E-A66BB6BB37E3}"
+- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
+  Hint: Path
+  Value: /Areas/Feature_Alerts/Views/Layouts/JsonLayout.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220630T123842Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9075e52f-262c-4d09-b89c-6b9d5dc7beca"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220630T161857Z

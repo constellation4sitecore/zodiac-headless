@@ -1,0 +1,55 @@
+{
+  "namespace": "Feature.Alerts",
+  "items": {
+    "includes": [
+      {
+        "allowedPushOperations": "createUpdateAndDelete",
+        "database": "master",
+        "maxRelativePathLength": "100",
+        "name": "Templates",
+        "path": "/sitecore/templates/Feature/Alerts",
+        "scope": "itemAndDescendants"
+      },
+      {
+        "allowedPushOperations": "createUpdateAndDelete",
+        "database": "master",
+        "maxRelativePathLength": "100",
+        "name": "Branches",
+        "path": "/sitecore/templates/Branches/Feature/Site Alerts Folder Structure",
+        "scope": "itemAndDescendants"
+      },
+      {
+        "allowedPushOperations": "createUpdateAndDelete",
+        "database": "master",
+        "maxRelativePathLength": "100",
+        "name": "Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/Alerts",
+        "scope": "itemAndDescendants"
+      },
+      {
+        "allowedPushOperations": "createUpdateAndDelete",
+        "database": "master",
+        "maxRelativePathLength": "100",
+        "name": "Layout",
+        "path": "/sitecore/layout/Layouts/Feature/Alerts",
+        "scope": "itemAndDescendants"
+      },
+      {
+        "allowedPushOperations": "createUpdateAndDelete",
+        "database": "master",
+        "maxRelativePathLength": "100",
+        "name": "PlaceholderSettings",
+        "path": "/sitecore/layout/Placeholder Settings/Feature/Alerts",
+        "scope": "itemAndDescendants"
+      },
+      {
+        "allowedPushOperations": "createAndUpdate",
+        "database": "master",
+        "maxRelativePathLength": "100",
+        "name": "Content",
+        "path": "/sitecore/content/_alerts",
+        "scope": "itemAndDescendants"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+﻿---
+ID: "2da3f7b0-20f4-47c7-962e-a66bb6bb37e3"
+Parent: "c03a2c63-9045-4143-a456-cf8d6bff5efa"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Feature/Alerts/Alerts - Main"
+SharedFields:
+- ID: "14d0728a-82f9-4b01-ab16-1fe1577cede2"
+  Hint: Editable
+  Value: 
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: 
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: "{2A34602C-6A53-4D88-90C8-CF9F1BE998E5}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "87871ff5-1965-46d6-884f-01d6a0b9c4c1"
+    Hint: Description
+    Value: |
+      This shows how to install the Alerts Feed rendering onto a Layout that is specialized to return JSON instead of HTML. The Layout should have a single "Main" placeholder defined. Add this Placeholder Setting to the Standard Values of the Item that represents the Alerts Feed URL.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220630T122025Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9765482b-1df7-4663-810b-251e8ad23876"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220630T123725Z

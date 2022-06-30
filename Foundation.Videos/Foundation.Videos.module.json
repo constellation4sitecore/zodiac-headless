@@ -1,0 +1,15 @@
+{
+  "namespace": "Foundation.Videos",
+  "items": {
+    "includes": [
+      {
+        "allowedPushOperations": "createUpdateAndDelete",
+        "database": "master",
+        "maxRelativePathLength": "100",
+        "name": "Templates",
+        "path": "/sitecore/templates/Foundation/Videos",
+        "scope": "itemAndDescendants"
+      }
+    ]
+  }
+}
